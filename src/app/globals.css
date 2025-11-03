@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+/* Opcional: pequeños ajustes */
+:root { color-scheme: light; }
+
+/* Extras opcionales */
+html, body { height: 100%; }
+
+/* Brand color variable for banner/logo accents */
+:root {
+  --brand-green: #0e7c3a;
+  /* Precomputed alpha variants for translucent backgrounds */
+  --brand-green-80: #0e7c3acc; /* ~80% */
+  --brand-green-95: #0e7c3af2; /* ~95% */
+}
